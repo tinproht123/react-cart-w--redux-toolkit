@@ -1,0 +1,21 @@
+h1,
+p {
+  font-family: Lato;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+  align-items: center;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.cart-item i {
+  font-size: 1.5rem;
+}
