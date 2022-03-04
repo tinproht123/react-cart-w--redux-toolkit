@@ -14,7 +14,7 @@ const CartList = () => {
       <h1 class="text-center my-3" style={{ fontSize: 40, letterSpacing: 4 }}>
         Your bag
       </h1>
-      <ul>
+      <ul className="p-0">
         {list.map((item) => (
           <CartItem key={item.id} {...item} />
         ))}
